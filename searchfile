@@ -1,0 +1,3 @@
+echo "searching for file $1 ..."
+echo "errors are hidden"
+find / -name $1 2>>/dev/null
